@@ -1,0 +1,13 @@
+<div *ngFor="let post of posts">
+    <h3>{{ post.author }}</h3>
+    <p>{{ post.text }}</p>
+    <button (click)="likePost(post)">Like</button>
+    <span>{{ post.likes }}</span>
+  
+    <h4>Commenti:</h4>
+    <div *ngFor="let comment of post.comments">
+      <p>{{ comment.author }}</p>
+      <p>{{ comment.text }}</p>
+    </div>
+  </div>
+  

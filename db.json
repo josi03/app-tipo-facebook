@@ -1,0 +1,30 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "autore": "mario rossi",
+        "testo": "questo è il primo post di mario rossi",
+        "like": 0
+      },
+      {
+        "id": 2,
+        "autore": "antonio bianchi",
+        "testo": "questo è il post di antonio bianchi",
+        "like": 1
+      },
+      {
+        "id": 3,
+        "autore": "mario rossi",
+        "testo": "questo è il secondo post di Mario Rossi",
+        "like": 0
+      }    
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "autore": "john smith",
+        "testo": "bel post!!",
+        "idpost": 2
+      }
+    ]
+  }
